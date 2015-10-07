@@ -13,5 +13,10 @@
     "id":"article-module",
     "score":1,
     "name": "Article module"
+  },
+  {
+    "id":"macro-module",
+    "score":1,
+    "name": "Macro module"
   }
 ]
