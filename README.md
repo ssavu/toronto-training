@@ -13,11 +13,14 @@ npm install
 - run the local server on localhost:8000:
 npm start
 
-- start coding :)
+- you can leave the server running and start modifying the project source code
+  it will be automatically refresh in the browser
 
 
 
 INSTRUCTIONS:
+This application will display a small list of jahia modules, and also the detail for each one.
+
 The application will have two views, try to structure your project correctly,
 remove the view1 and view2 by something more meaningful
 
