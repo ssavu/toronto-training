@@ -1,0 +1,12 @@
+{
+  "id":"newsletter-module",
+  "score":10,
+  "name": "Newsletter module",
+  "description": "This module allow you to create and send newsletter using digital factory",
+  "tabs": {
+    "information" : {
+      "cost": "67$",
+      "version": "5.0.0"
+    }
+  }
+}

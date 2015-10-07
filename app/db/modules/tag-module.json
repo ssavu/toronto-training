@@ -1,0 +1,19 @@
+{
+  "id": "tag-module",
+  "score":5,
+  "name": "Tagging module",
+  "description": "This module provide tagging functions in Digital factory",
+  "tabs": {
+    "information" : {
+      "cost": "15$",
+      "version": "1.0.0"
+    },
+    "contact" : {
+      "vendor" : "jahia",
+      "github" : "..."
+    },
+    "related" : {
+      "tag": "tagging, module, jahia"
+    }
+  }
+}

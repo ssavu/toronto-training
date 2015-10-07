@@ -1,0 +1,17 @@
+[
+  {
+    "id": "tag-module",
+    "score":5,
+    "name": "Tagging module"
+  },
+  {
+    "id":"newsletter-module",
+    "score":10,
+    "name": "Newsletter module"
+  },
+  {
+    "id":"article-module",
+    "score":1,
+    "name": "Article module"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "id":"article-module",
+  "score":1,
+  "name": "Article module",
+  "description": "simple module that allow you to create article in digital factory",
+  "tabs": {
+    "information" : {
+      "cost": "FREE",
+      "version": "1.0.0"
+    },
+    "related" : {
+      "tag": "article, content, module, jahia"
+    }
+  }
+}
