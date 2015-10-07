@@ -1,0 +1,8 @@
+<h2>Modules:</h2>
+<br/>
+<div>
+    <label for="searchInput">Search: </label><input id="searchInput" ng-model="searchFilter">
+</div>
+<div ng-repeat="module in modules | filter:searchFilter | orderBy:'score'">
+    <display-module-simple module-simple-item="module"></display-module-simple>
+</div>

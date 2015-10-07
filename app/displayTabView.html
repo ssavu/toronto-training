@@ -1,0 +1,11 @@
+
+<span ng-repeat="(name, displayableItem) in displayableItems">
+        <button class="btn btn-info" ng-click="onTabSelected(name)">{{name}}</button>
+</span>
+<div id="tab-content" ng-repeat="(name, displayableItem) in displayableItems" ng-show="name == selectedTab">
+    <div id="{{name}}">
+        <display-module-detail module-detail="displayableItem"></display-module-detail>
+    </div>
+</div>
+
+
