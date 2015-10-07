@@ -1,20 +1,19 @@
 # toronto-training
 
-INSTALLATION:
+##INSTALLATION:
 - install nodejs and npm:
-http://shapeshed.com/setting-up-nodejs-and-npm-on-mac-osx/
+> http://shapeshed.com/setting-up-nodejs-and-npm-on-mac-osx/
 
 - install bower using npm:
-npm install -g bower
+> npm install -g bower
 
 - install project dependency, go into project source folder:
-npm install
+> npm install
 
 - run the local server on localhost:8000:
-npm start
+> npm start
 
-- you can leave the server running and start modifying the project source code
-  it will be automatically refresh in the browser
+- you can leave the server running and start modifying the project source code it will be automatically refresh in the browser
 
 
 
