@@ -1,4 +1,4 @@
-angular.module('moduleApp.detail', ['ngRoute', 'moduleApp.service.module'])
+angular.module('moduleApp.create', ['ngRoute', 'moduleApp.service.module'])
 
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider.when('/add', {

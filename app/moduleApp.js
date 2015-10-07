@@ -5,7 +5,7 @@ angular.module('moduleApp', [
   'ngRoute',
   'moduleApp.list',
   'moduleApp.detail',
-  'moduleApp.service.module'
+  'moduleApp.create'
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/list'});
