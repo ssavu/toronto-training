@@ -36,6 +36,14 @@
 - example of html tab: http://www.w3schools.com/bootstrap/bootstrap_tabs_pills.asp
 - for exemple tag-module.json have 3 tabs: information, contact, related. this mean that the detail view of the tag-module should display 3 tabs, each one displaying the good information, this behavior need to be generic so it can be used in all cases
 
+### FOR the finishers:
+- in the main view, the view that display the list, I want to display the best scored module, kind of "more interesting module" to put in front page (remember the tabs and every things, I want them to be display also here for this particular module)
+- create a third view that will allow user to create new modules
+- provide a name, description, score (try to generate an id programmatically) form for create the module
+- because the modules are persisted on the file system you wont be able to save them in db files
+- you need to find a way to save them in memory (remember that services are singleton, and they live the entire time of the application)
+- if you are motivated, you can try to find a way to provide a tab creator form for user, so they can also provide tabs for the modules
+
 ###bonnus:
 - Error should be handle properly, if for some reason a module doesn't exist (it's the case for the macro module) when clicking on the detail view for the macro module, an error message should be display to the user and the transition from list to detail view need to be canceled, so the user stay on the list view
 
