@@ -1,0 +1,62 @@
+
+<div class="row">
+    <div class="col-sm-6">
+        <div class="row">
+            <h2>Module List</h2>
+        </div>
+        <div class="row">
+                <label for="searchInput">Search: </label><input id="searchInput" ng-model="searchFilter">
+        </div>
+        <div clas="row">
+            <div class="col-sm-12">
+                <table class="table">
+                    <tr>
+                        <th>Name</th>
+                        <th>Score</th>
+                        <th>Details</th>
+                    </tr>
+
+                    <tr ng-repeat="module in modules | filter:searchFilter | orderBy:'-score'">
+                        <td>{{module.name}}</td>
+                        <td>{{module.score}}</td>
+                        <td><button class="md-button md-primary md-raised" ng-click="redirectTo('view2/',module.id)">View Details</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <h3>Best Module:</h3>
+        <h4 ng-if="bestModule">
+            {{bestModule.name}}
+            <br/>
+            <br/>
+
+            <display-tab-view displayable-items="bestModule.tabs"></display-tab-view>
+        </h4>
+    </div>
+    <div class="row">
+        <a class="btn btn-sm btn-primary" href="#/createModule">Create Module</a>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2">
+            Format Date:
+        </div>
+        <div class="col-sm-2">
+            <input type="text" ng-model="dateFormat">
+        </div>
+        <div class="col-sm-4">
+            <current-time-example format="dateFormat"></current-time-example>
+        </div>
+        <div class="col-sm-4">
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+

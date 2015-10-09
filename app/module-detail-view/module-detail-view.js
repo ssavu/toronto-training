@@ -1,9 +1,9 @@
-angular.module('myApp.view2', ['ngRoute', 'processJSONFile', 'moduleDirectives'])
+angular.module('myApp.moduleDetailView', ['ngRoute', 'processJSONFile', 'moduleDirectives'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/view2/:moduleId', {
-    templateUrl: 'view2/view2.html',
-    controller: 'View2Ctrl',
+    templateUrl: 'module-detail-view/module-detail-view.html',
+    controller: 'ModuleDetailViewCtrl',
     resolve: {
       "module" : function($q, $route, processJSONFileService){
         {
@@ -22,6 +22,6 @@ angular.module('myApp.view2', ['ngRoute', 'processJSONFile', 'moduleDirectives']
   });
 }])
 
-.controller('View2Ctrl', ['$scope', 'module', '$anchorScroll', function($scope, module) {
+.controller('ModuleDetailViewCtrl', ['$scope', 'module', '$anchorScroll', function($scope, module) {
       $scope.module = module;
 }]);
